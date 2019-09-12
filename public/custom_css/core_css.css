@@ -1,0 +1,313 @@
+@font-face {
+	font-family: mreaves;
+	src: url('/fonts/MrEavesXL.ttf');
+}
+@font-face {
+	font-family: mreaves-ultra-italic;
+	src: url('/fonts/MrEavesXLModNarOT-UltraItalic.ttf');
+}
+@font-face {
+	font-family: mreaves-ultra;
+	src: url('/fonts/MrEavesXLModNarOT-Ultra.ttf');
+}
+@font-face {
+	font-family: mreaves-thin-italic;
+	src: url('/fonts/MrEavesXLModNarOT-ThinItalic.ttf');
+}
+@font-face {
+	font-family: mreaves-thin;
+	src: url('/fonts/MrEavesXLModNarOT-Thin.ttf');
+}
+@font-face {
+	font-family: mreaves-reg-italic;
+	src: url('/fonts/MrEavesXLModNarOT-RegItalic.ttf');
+}
+@font-face {
+	font-family: mreaves-reg;
+	src: url('/fonts/MrEavesXLModNarOT-Reg.ttf');
+}
+@font-face {
+	font-family: mreaves-light-italic;
+	src: url('/fonts/MrEavesXLModNarOT-LightItalic.ttf');
+}
+@font-face {
+	font-family: mreaves-light;
+	src: url('/fonts/MrEavesXLModNarOT-Light.ttf');
+}
+@font-face {
+	font-family: mreaves-heavy-italic;
+	src: url('/fonts/MrEavesXLModNarOT-HeavyItalic.ttf');
+}
+@font-face {
+	font-family: mreaves-heavy;
+	src: url('/fonts/MrEavesXLModNarOT-Heavy.ttf');
+}
+@font-face {
+	font-family: mreaves-book-italic;
+	src: url('/fonts/MrEavesXLModNarOT-BookItalic.ttf');
+}
+@font-face {
+	font-family: mreaves-book;
+	src: url('/fonts/MrEavesXLModNarOT-Book.ttf');
+}
+@font-face {
+	font-family: mreaves-bold-italic;
+	src: url('/fonts/MrEavesXLModNarOT-BoldItalic.ttf');
+}
+@font-face {
+	font-family: mreaves-bold;
+	src: url('/fonts/MrEavesXLModNarOT-Bold.ttf');
+}
+@font-face {
+	font-family:mreaves-bold1;
+	src: url('/fonts/MrEavesXLModOT-Bold.ttf');
+}
+@font-face {
+	font-family:mreaves-bold1-italic;
+	src: url('/fonts/MrEavesXLModOT-BoldItalic.ttf');
+}
+@font-face {
+	font-family:mreaves-book1;
+	src: url('/fonts/MrEavesXLModOT-Book.ttf');
+}
+@font-face {
+	font-family:mreaves-book1-italic;
+	src: url('/fonts/MrEavesXLModOT-BookItalic.ttf');
+}
+@font-face {
+	font-family:mreaves-heavy1;
+	src: url('/fonts/MrEavesXLModOT-Heavy.ttf');
+}
+@font-face {
+	font-family:mreaves-heavy1-italic;
+	src: url('/fonts/MrEavesXLModOT-HeavyItalic.ttf');
+}
+@font-face {
+	font-family:mreaves-light1;
+	src: url('/fonts/MrEavesXLModOT-Light.ttf');
+}
+@font-face {
+	font-family:mreaves-light1-italic;
+	src: url('/fonts/MrEavesXLModOT-LightItalic.ttf');
+}
+@font-face {
+	font-family:mreaves-reg1;
+	src: url('/fonts/MrEavesXLModOT-Reg.ttf');
+}
+@font-face {
+	font-family:mreaves-reg1-italic;
+	src: url('/fonts/MrEavesXLModOT-RegItalic.ttf');
+}
+@font-face {
+	font-family:mreaves-thin1;
+	src: url('/fonts/MrEavesXLModOT-Thin.ttf');
+}
+@font-face {
+	font-family:mreaves-thin1-italic;
+	src: url('/fonts/MrEavesXLModOT-ThinItalic.ttf');
+}
+@font-face {
+	font-family:mreaves-ultra1;
+	src: url('/fonts/MrEavesXLModOT-Ultra.ttf');
+}
+@font-face {
+	font-family:mreaves-ultra1-italic;
+	src: url('/fonts/MrEavesXLModOT-UltraItalic.ttf');
+}
+
+body{
+font-family: mreaves-reg1;
+}
+.container{
+	max-width: 1280px;
+}
+.top-bar{
+background-color: #f4d322;
+font-weight: bold;
+text-align: center;
+font-size: 22px;
+padding: 13px 0px;
+}
+.header{
+	padding: 29px 0px;
+}
+.navbar-sec{
+	border-bottom: 1px solid black;
+}
+.navbar-wrapper{
+	text-align: center;
+}
+.navbar-default {
+background-color: white;
+border: none;
+font-size: 18px;
+display: inline-block;
+margin: 0;
+}
+.navbar-toggle{
+	float: none;
+}
+.search-input{
+	background-image: url(../core_images/images/tp-inpt-srch-icn.png);
+background-repeat: no-repeat;
+border-radius: 0px;
+border: 1px solid black;
+width: 100%;
+padding: 8px 15px;
+background-position: 95% 50%;
+padding-right: 42px;
+}
+.sign-in-sec{
+	text-align: right;
+}
+
+.btn-link{
+	color: black;
+}
+.navbar li{
+	padding-right: 22px;
+}
+
+.breadcrumb{
+	background-color: white;
+}
+.breadcrumb a{
+	color:#747677;
+}
+.Duvets-title{
+	color: #747677;
+}
+.Duvets-title p{
+	font-size: 16px;
+}
+.btn-group{
+	float: right;
+}
+.filter-by-btn{
+width: 63%;
+border-radius: 0px;
+border: 1px solid black;
+background-color: transparent;
+padding: 7px 7px;
+text-align: left;
+}
+.option-sec .glyphicon{
+	float: right;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: black;
+    border-radius: 0px;
+    padding: 7px 15px;
+}
+.sort-by-dropdown .btn{
+text-align: left;
+width: 50%;
+}
+.show-dropdown .btn{
+text-align: left;
+width: 65px;
+padding: 8px 10px;
+}
+.product-wrapper{
+	padding-top: 37px;
+}
+.img-box{
+	background-image: url(../core_images/images/julian_charles_5_star_luxury_super_soft_13.5_tog_duvet-1_1_6_1_.jpg);
+	height: 390px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img-box:hover{
+	background-image: url(../core_images/images/goose-duvet.jpg);
+	height: 390px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: 1s;
+}
+.img-box .product-offer{
+background-color: #fed90a;
+font-weight: bold;
+font-size: 17px;
+text-align: center;
+width: 234px;
+position: absolute;
+right: -2%;
+top: 3%;
+padding: 5px;
+}
+.product-detail{
+	text-align: center;
+	padding: 15px;
+	color: #747677;
+}
+.product-detail .detail{
+
+}
+.product-detail .price{
+font-size: 18px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.product-detail .discount{
+color: #bd1e31;
+}
+.product-detail .btn{
+font-weight: bold;
+width: 150px;
+}
+.footer-sec{
+	background-color: #f4f4f4;
+	color:#747677;
+}
+.footer-sec h1{
+	font-size: 15px;
+font-weight: bold;
+}
+.footer-sec h4{
+color: #747677;
+font-size: 15px;
+}
+.pay-services img{
+padding-right: 10px;
+}
+.social-media-icons{
+
+}
+.social-media-icons img{
+	width: 30px;
+	margin-right: 6px;
+}
+.footer-bottom-sec a{
+	color: #747677;
+}
+.footer-bottom-sec{
+	padding: 12px 0px;
+}
+ul#mylist li{
+	float:left;
+	margin-right: 15px;
+}
+ul#mylist>:first-child{
+	list-style: none;
+}
+.details-sec{
+	text-align: center;
+	padding-top: 80px;
+}
+
+.details-sec .show-dropdown{
+text-align: left;
+}
+.show-dropdown .glyphicon{
+float: right;
+}
+.detail-paragraph{
+padding-top: 40px;
+font-size: 15px;
+}
